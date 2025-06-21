@@ -1,10 +1,11 @@
 from tkinter import *
 from tkinter import ttk
+from ttkthemes import ThemedTk
 
 win_width = 300
 win_height = 170
 
-root = Tk()
+root = ThemedTk(theme="breeze")
 root.title("Counter")
 root.minsize(width=win_width, height=win_height)
 root.maxsize(width=win_width, height=win_height)
