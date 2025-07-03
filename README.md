@@ -14,3 +14,10 @@ Install dependencies
 ```
 pip install -r .\requirement.txt
 ```
+
+Compile the Python code via py_compile
+```
+python .\compile.py
+```
+
+
